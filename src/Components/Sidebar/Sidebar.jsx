@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './sidebar.css'
+import './Sidebar.css'
 import axios from 'axios'
 function Sidebar({apiData, setUserId, dataUrl}) {
   
