@@ -1,0 +1,22 @@
+#sidebar{
+    padding: 10px;
+    box-shadow: 0 0 5px gray;
+    padding-top: 20px;
+}
+#sidebar ul button{
+    width: 100%;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: start;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#sidebar ul button:hover{
+    background-color: rgba(128, 255, 0, 0.315);
+}
+#sidebar ul button.active{
+    background-color: chartreuse;
+}

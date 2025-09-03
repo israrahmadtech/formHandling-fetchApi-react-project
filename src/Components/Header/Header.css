@@ -1,0 +1,42 @@
+#header{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 2px #ccc;
+    background-color: #e6e6e6;
+    position: relative;
+    z-index: 10;
+}
+#header nav ul{
+    list-style: none;
+    display: flex;
+}
+#header nav ul button{
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#header nav ul button:hover{
+    background-color: rgba(128, 255, 0, 0.315);
+}
+#header nav ul button.active{
+    background-color: chartreuse;
+}
+
+@media (max-width: 550px){
+    #header{
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+}
+@media (max-width: 376px){
+    #header nav ul{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
